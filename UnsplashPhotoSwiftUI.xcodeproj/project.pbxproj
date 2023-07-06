@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08C8A1EAC3FCA35EAC9597F5 /* libPods-UnsplashPhotoSwiftUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 983B3A007C6F59783FB2ED26 /* libPods-UnsplashPhotoSwiftUI.a */; };
 		ED2D4CDF2A5560DF00895A93 /* UnsplashPhotoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D4CDE2A5560DF00895A93 /* UnsplashPhotoSwiftUIApp.swift */; };
 		ED2D4CE12A5560DF00895A93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D4CE02A5560DF00895A93 /* ContentView.swift */; };
 		ED2D4CE32A5560E000895A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2D4CE22A5560E000895A93 /* Assets.xcassets */; };
 		ED2D4CE62A5560E000895A93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2D4CE52A5560E000895A93 /* Preview Assets.xcassets */; };
+		ED2D4CF22A55659D00895A93 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D4CF12A55659D00895A93 /* PhotoModel.swift */; };
+		ED2D4CF42A5565AD00895A93 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D4CF32A5565AD00895A93 /* PhotoService.swift */; };
+		ED2D4CF62A5565C300895A93 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D4CF52A5565C300895A93 /* PhotoViewModel.swift */; };
+		ED2D4CF82A5565DA00895A93 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D4CF72A5565DA00895A93 /* PhotosView.swift */; };
+		ED2D4CFA2A5565E800895A93 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D4CF92A5565E800895A93 /* PhotoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A13CB2E60DB405A090E70E7 /* Pods-UnsplashPhotoSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashPhotoSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-UnsplashPhotoSwiftUI/Pods-UnsplashPhotoSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		983B3A007C6F59783FB2ED26 /* libPods-UnsplashPhotoSwiftUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnsplashPhotoSwiftUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AE59003826B4196CAC83B9 /* Pods-UnsplashPhotoSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashPhotoSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-UnsplashPhotoSwiftUI/Pods-UnsplashPhotoSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		ED2D4CDB2A5560DF00895A93 /* UnsplashPhotoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashPhotoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2D4CDE2A5560DF00895A93 /* UnsplashPhotoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashPhotoSwiftUIApp.swift; sourceTree = "<group>"; };
 		ED2D4CE02A5560DF00895A93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED2D4CE22A5560E000895A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2D4CE52A5560E000895A93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED2D4CF12A55659D00895A93 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		ED2D4CF32A5565AD00895A93 /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+		ED2D4CF52A5565C300895A93 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		ED2D4CF72A5565DA00895A93 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		ED2D4CF92A5565E800895A93 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08C8A1EAC3FCA35EAC9597F5 /* libPods-UnsplashPhotoSwiftUI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1558091C3B0C06E0E5E0B67C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A13CB2E60DB405A090E70E7 /* Pods-UnsplashPhotoSwiftUI.debug.xcconfig */,
+				A6AE59003826B4196CAC83B9 /* Pods-UnsplashPhotoSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C6A0AF15F723C326EDB645C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				983B3A007C6F59783FB2ED26 /* libPods-UnsplashPhotoSwiftUI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED2D4CD22A5560DF00895A93 = {
 			isa = PBXGroup;
 			children = (
 				ED2D4CDD2A5560DF00895A93 /* UnsplashPhotoSwiftUI */,
 				ED2D4CDC2A5560DF00895A93 /* Products */,
+				1558091C3B0C06E0E5E0B67C /* Pods */,
+				6C6A0AF15F723C326EDB645C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +85,13 @@
 		ED2D4CDD2A5560DF00895A93 /* UnsplashPhotoSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				ED2D4CDE2A5560DF00895A93 /* UnsplashPhotoSwiftUIApp.swift */,
-				ED2D4CE02A5560DF00895A93 /* ContentView.swift */,
-				ED2D4CE22A5560E000895A93 /* Assets.xcassets */,
+				ED2D4CF02A55655C00895A93 /* Model */,
+				ED2D4CEC2A55654100895A93 /* Network */,
 				ED2D4CE42A5560E000895A93 /* Preview Content */,
+				ED2D4CEE2A55654E00895A93 /* Resources */,
+				ED2D4CDE2A5560DF00895A93 /* UnsplashPhotoSwiftUIApp.swift */,
+				ED2D4CEF2A55655400895A93 /* ViewModel */,
+				ED2D4CED2A55654600895A93 /* Views */,
 			);
 			path = UnsplashPhotoSwiftUI;
 			sourceTree = "<group>";
@@ -67,6 +104,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		ED2D4CEC2A55654100895A93 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D4CF32A5565AD00895A93 /* PhotoService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ED2D4CED2A55654600895A93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D4CE02A5560DF00895A93 /* ContentView.swift */,
+				ED2D4CF72A5565DA00895A93 /* PhotosView.swift */,
+				ED2D4CF92A5565E800895A93 /* PhotoDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED2D4CEE2A55654E00895A93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D4CE22A5560E000895A93 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED2D4CEF2A55655400895A93 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D4CF52A5565C300895A93 /* PhotoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ED2D4CF02A55655C00895A93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D4CF12A55659D00895A93 /* PhotoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED2D4CE92A5560E000895A93 /* Build configuration list for PBXNativeTarget "UnsplashPhotoSwiftUI" */;
 			buildPhases = (
+				1F66AC68C91D8E0064461AE6 /* [CP] Check Pods Manifest.lock */,
 				ED2D4CD72A5560DF00895A93 /* Sources */,
 				ED2D4CD82A5560DF00895A93 /* Frameworks */,
 				ED2D4CD92A5560DF00895A93 /* Resources */,
@@ -132,13 +212,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F66AC68C91D8E0064461AE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnsplashPhotoSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED2D4CD72A5560DF00895A93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2D4CF42A5565AD00895A93 /* PhotoService.swift in Sources */,
+				ED2D4CF22A55659D00895A93 /* PhotoModel.swift in Sources */,
+				ED2D4CFA2A5565E800895A93 /* PhotoDetailView.swift in Sources */,
 				ED2D4CE12A5560DF00895A93 /* ContentView.swift in Sources */,
 				ED2D4CDF2A5560DF00895A93 /* UnsplashPhotoSwiftUIApp.swift in Sources */,
+				ED2D4CF62A5565C300895A93 /* PhotoViewModel.swift in Sources */,
+				ED2D4CF82A5565DA00895A93 /* PhotosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +371,7 @@
 		};
 		ED2D4CEA2A5560E000895A93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A13CB2E60DB405A090E70E7 /* Pods-UnsplashPhotoSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +405,7 @@
 		};
 		ED2D4CEB2A5560E000895A93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6AE59003826B4196CAC83B9 /* Pods-UnsplashPhotoSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
